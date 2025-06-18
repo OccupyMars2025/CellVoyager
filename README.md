@@ -18,7 +18,7 @@ conda activate CellVoyager
 
 ---
 
-It's difficult to use conda in colab, so I use pip directly. I copied the required packages into the file requirements.txt from CellVoyager_env.yaml,  just run
+It's difficult to use conda in colab, so OccupyMars2025 use pip directly. OccupyMars2025 copied the required packages into the file requirements.txt from CellVoyager_env.yaml,  just run
 ```
 !pip install -r requirements.txt
 ```
