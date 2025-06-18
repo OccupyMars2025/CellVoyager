@@ -15,6 +15,15 @@ To create the necessary environment, run
 conda env create -f CellVoyager_env.yaml
 conda activate CellVoyager
 ```
+
+---
+
+It's difficult to use conda in colab, so I use pip directly. I copied the required packages into the file requirements.txt from CellVoyager_env.yaml,  just run
+```
+!pip install -r requirements.txt
+```
+---
+
 In `run.py` set the following parameters
 1. Set `h5ad_path` to the absolute path of the anndata `.h5ad` file
 2. Set `paper_summary_path` to the absolute path of a `.txt` file containing the LLM or human generated summary of the paper
