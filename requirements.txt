@@ -1,0 +1,17 @@
+scanpy
+scvi-tools
+anndata
+matplotlib
+numpy
+seaborn
+pandas
+scipy
+nbformat
+nbconvert
+h5py
+pillow
+python-dotenv
+tqdm
+ipykernel
+openai
+celltypist
